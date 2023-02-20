@@ -1,0 +1,43 @@
+@media screen and (min-width: 500px) {
+    .animals {
+        width: 50%;
+    }
+    .minerals {
+        background-color: beige;
+    }
+    .vegetables {
+        font-size: 40px;
+        color: red;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .animals {
+        width: 25%;
+    }
+    .minerals {
+        background-color: goldenrod;
+    }
+    .vegetables {
+        font-size: 30px;
+        color: gray;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.animals, .minerals, .vegetables {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+}
